@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!--Font Awesome 6 CDM-->
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <i class="bx bx-menu" id="menu-icon"></i>
+         <h1>Divine's Touch</h1>
+         <ul class="navbar">
+             <li> <a href="home.html">Home</a> | </li>   
+                <li> <a href="Shop.html">Shop</a> | </li>
+                <li>  <a href="about.html">About</a> | </li>  
+                <li> <a href="services.html">Services</a> | </li>  
+                <li>  <a href="contact.html">Contact</a> </li> 
+         </ul>
+
+         <div class="header-icon">
+            <i class='bx bx-cart-alt'></i>
+            <i class='bx bx-search' id="search-icon"></i>
+         </div>
+    </header>
+
+    <div class="heading">
+        <p>Explore our collection</p>
+              <h2>Our <span>Products</span></h2>
+    </div>
+ 
+
+     <section class="products" id="products">
+            <p>Explore our collection</p>
+            <h2>Our <span>Products</span></h2>
+            <div class="search-bar">
+                <div class="search-input-wrap">
+                     <span class="search-icon">🔍</span>
+                      <input type="text" id="searchInput" placeholder="Search products..." oninput="filterProducts()">
+                </div>
+                <div class="filter-btns">
+                    <button class="filter-btn active" onclick="setFilter('all', this)">All</button>
+                     <button class="filter-btn" onclick="setFilter('clothes', this)">Clothes</button>
+                     <button class="filter-btn" onclick="setFilter('shoes', this)">Shoes</button>
+                     <button class="filter-btn" onclick="setFilter('electronics', this)">Electronics</button>
+                     <button class="filter-btn" onclick="setFilter('products', this)">Other</button>
+                </div>
+            </div>
+
+            <p class="result-count" id="resultCount">Showing <span id="countNum">11</span> products</p>
+      
+        </div>
+
+        <div class="products-container">
+            <div class="box">
+                <img src="images/clothes1.jpeg" alt="">
+                <h3>Clothes</h3>
+                <div class="content">
+                    <span>R230</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+
+              <div class="box">
+                <img src="images/electronic1.jpg" alt="">
+                <h3>Electronics</h3>
+                <div class="content">
+                    <span>R200</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+
+              <div class="box">
+                <img src="images/product1.jpeg" alt="">
+                <h3>Products</h3>
+                <div class="content">
+                    <span>R150</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+
+              <div class="box">
+                <img src="images/shoes1.jpeg" alt="">
+                <h3>Shoes</h3>
+                <div class="content">
+                    <span>R450</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+
+              <div class="box">
+                <img src="images/electronic3.jpeg" alt="">
+                <h3>Electronic</h3>
+                <div class="content">
+                    <span>R450</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/clothes2.jpeg" alt="">
+                <h3>Clothes</h3>
+                <div class="content">
+                    <span>R200</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/clothes3.jpeg" alt="">
+                <h3>clothes</h3>
+                <div class="content">
+                    <span>150</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/product4.jpeg" alt="">
+                <h3>products</h3>
+                <div class="content">
+                    <span>R90</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/electronic2.jpg" alt="">
+                <h3>electronic</h3>
+                <div class="content">
+                    <span>R500</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <footer>
+        <p>&copy; 2026 Divine’s Touch</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
