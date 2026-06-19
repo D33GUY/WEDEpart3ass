@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Font Awesome 6 CDM-->
+     <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+<body>
+    <header>
+         <i class="bx bx-menu" id="menu-icon"></i>
+         <h1>Divine's Touch</h1>
+         <ul class="navbar">
+             <li> <a href="home.html">Home</a> | </li>   
+                <li> <a href="Shop.html">Shop</a> | </li>
+                <li>  <a href="about.html">About</a> | </li>  
+                <li> <a href="services.html">Services</a> | </li>  
+                <li>  <a href="contact.html">Contact</a> </li> 
+         </ul>
+    </header>
+
+    <div class="page-hero">
+        <p> Get in touch</p>
+        <h2>Contact <em>Us</em></h2>
+    </div>
+
+    <main class="container">
+        <p class="section-label">Reach us on</p>
+
+        <div class="contact-layout">
+        <!-- Left: contact detail cards -->
+         <div class="contact-info">
+            <div class="contact-card">
+                <div class="c-icon">📞</div>
+                <div>
+                     <div class="c-label">Telephone</div>
+                     <div class="c-value"> +27 11 345 6789</div>
+                </div>  
+            </div> 
+            <div class="contact-card">
+                <div class="c-icon">📱</div>
+                <div>
+                    <div class="c-label">Mobile</div>
+                    <div class="c-value">060 453 6758</div>
+                </div>
+            </div> 
+            <div class="contact-card">
+                <div class="c-icon">✉️</div>
+                <div>
+                    <div class="c-label">Email</div>
+                    <div class="c-value">divinestouch@gmail.com</div>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="c-icon">📸</div>
+                <div>
+                    <div class="c-label">Instagram</div>
+                    <div class="c-value">@Divine's_Touch</div>
+                </div>
+            </div>
+         </div>
+
+            <!-- Right: image -->
+          <img src="images/contact us.jpg" alt="Contact" width="400" height="300">
+
+        </div>
+
+        <!-- Message form -->
+         <div class="contact-form">
+            <h3>Send us a <em>message</em></h3>
+            <form id="enquiryForm">
+
+             <div class="form-row">
+                <div class="form-group">
+                    <label for="fname">First Name</label>
+                     <input type="text" id="fname" placeholder="e.g. Thabo">
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" placeholder="e.g. Dlamini">
+                </div>
+             </div>
+
+             <div class="form-group">
+                 <label for="email">Email Address</label>
+                 <input type="email" id="email" placeholder="you@example.com">
+             </div>
+             <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" rows="5" placeholder="How can we help you?"></textarea>
+             </div>
+              
+                <button class="hero-btn-main">Send Message</button>
+              
+
+              <p id="message-box"></p>
+            </form>
+         </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Divine’s Touch| All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
